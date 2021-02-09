@@ -1,0 +1,61 @@
+:root {
+    /* colores */
+    --bg-oscuro: #212529;
+    --gris-suave: #cfcfcf;
+    --azul-oscuro: #22303d;
+    --blanco: #fff;
+    --blanco-humo: #f5f5f5;
+    --verde: #198754;
+    --rojo-alerta: #cc2828;
+    /* box shadow */
+    --sombra: 1px 1px 6px 0px rgba(57,57,57,0.75);
+    /* tipografia */
+    --principal: 'Quicksand', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--principal);
+    font-weight: 300;
+    height: 100vh;
+    color: var(--blanco);
+    background-color: var(--bg-oscuro);
+}
+.ingresar {
+    width: 20rem;
+    height: 2rem;
+    padding: .3rem 1rem;
+    border: none;
+    border-radius: .2rem;
+}
+.palabra {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.mensaje {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 1rem;
+    font-size: 1.5rem;
+    background-color: var(--blanco-humo);
+    color: var(--azul-oscuro);
+    border-radius: .2rem;
+    box-shadow: var(--sombra);
+}
+.chances {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0 1rem;
+    background-color: var(--verde);
+    color: var(--blanco);
+    padding: .3rem 1rem;
+    border-radius: .2rem;
+}
