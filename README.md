@@ -11,4 +11,4 @@ Sencillo juego del ahorcado, adivina la palabra correcta y evita ser ahorcado.
 
 ---
 
-# [Pruebalo aqui](https://gac982.github.io/super-jackpot-game-app/ "demo")
+# [Pruebalo aqui](https://gac982.github.io/ahorcado-game/ "demo")
